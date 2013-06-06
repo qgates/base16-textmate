@@ -29,7 +29,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#1d1f21</string>
+				<string>#1A1A1A</string>
 				<key>caret</key>
 				<string>#c5c8c6</string>
 				<key>foreground</key>
@@ -62,6 +62,19 @@
 			<dict>
 				<key>foreground</key>
 				<string>#969896</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Blade</string>
+			<key>scope</key>
+			<string>support.constant.laravel-blade,entity.name.tag.laravel-blade</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#8abeb7</string>
 			</dict>
 		</dict>
 		<dict>
@@ -234,6 +247,7 @@
 			<string>Tags</string>
 			<key>scope</key>
 			<string>entity.name.tag</string>
+			<!-- <string>entity.name.tag, declaration.tag, meta.tag</string> -->
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
